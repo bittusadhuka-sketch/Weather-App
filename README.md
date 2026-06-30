@@ -124,7 +124,7 @@ This project is licensed under the MIT License.
 
 **Bittu Sadhuka**
 
-- GitHub: https://github.com/your-username
+- GitHub: https://github.com/bittusadhuka-sketch
 - LinkedIn: https://www.linkedin.com/in/bittu-sadhuka-429b51315/
 
 ---
