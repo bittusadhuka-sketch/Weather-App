@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast App</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="cloud-layer"></div>
+
+    <div class="weather-card">
+
+        <h1>WEATHER FORECAST</h1>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="city"
+                placeholder="Enter city name">
+
+            <button id="searchBtn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+
+        <div class="weather">
+
+            <img id="weatherIcon" src="" alt="Weather Icon">
+
+            <h2 id="temperature">--°C</h2>
+
+            <h3 id="cityName">City Name</h3>
+
+            <p id="description">Weather Description</p>
+
+            <div class="details">
+
+                <div class="box">
+                    <i class="fa-solid fa-water"></i>
+                    <span id="humidity">0%</span>
+                    <p>Humidity</p>
+                </div>
+
+                <div class="box">
+                    <i class="fa-solid fa-wind"></i>
+                    <span id="wind">0 km/h</span>
+                    <p>Wind Speed</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
